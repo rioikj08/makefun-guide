@@ -25,6 +25,7 @@ kamu sudah tahu apa-apa.
 
 ## Daftar isi
 
+- [Jam pertamamu](#jam-pertamamu)
 - [Kenapa make.fun layak dicoba](#kenapa-makefun-layak-dicoba)
 - [Cara kerja make.fun](#cara-kerja-makefun)
 - [Yang kamu butuhkan](#yang-kamu-butuhkan)
@@ -38,8 +39,21 @@ kamu sudah tahu apa-apa.
 - [Atau serahkan semuanya ke agent kamu](#atau-serahkan-semuanya-ke-agent-kamu)
 - [Dapatkan link referral kamu sendiri](#dapatkan-link-referral-kamu-sendiri)
 - [Hadiah bounty ini](#hadiah-bounty-ini)
+- [Kesalahan yang bikin entry gagal](#kesalahan-yang-bikin-entry-gagal)
 - [Pertanyaan yang sering ditanyakan](#pertanyaan-yang-sering-ditanyakan)
 - [Tautan](#tautan)
+
+## Jam pertamamu
+
+Kalau kamu mau jalur tercepat dari nol ke entry pertama, lakukan persis lima hal ini:
+
+1. **Daftar** lewat [https://make.fun/r/tyqr5tqy](https://make.fun/r/tyqr5tqy), lalu tautkan akun GitHub di profilmu.
+2. **Pilih satu bounty** yang tugasnya kamu pahami, dan baca halaman requirements-nya sampai habis.
+3. **Unduh kit-nya** dan baca `RULES.txt` — itu seluruh kompetisi dalam bahasa biasa.
+4. **Mulai sesi agent yang baru** setelah bounty dibuka, dan bangun di dalamnya. Jangan memakai sesi yang dimulai sebelum bounty dibuka — sesi itu tidak bisa dientrikan.
+5. **Kirim lebih awal**, selagi masih ada waktu memperbaiki apa pun yang ditolak pemeriksa.
+
+Itu seluruh loop-nya. Sisanya panduan ini adalah detail di balik tiap langkah.
 
 ## Kenapa make.fun layak dicoba
 
@@ -264,6 +278,16 @@ Entry ditutup **21 November 2026, 17:30 WIB**. Pemeriksaan final berjalan setela
 diputuskan setelah masa peninjauan 24 jam sejak ia terikat ke link, dan hanya pendaftar yang terverifikasi
 sampai akhir pemeriksaan final — 30 jam setelah deadline — yang dihitung. Pendaftar palsu, bot, akun yang
 tidak pernah ikut serta, atau pendaftar dari klaster IP yang sama tidak dihitung.
+
+## Kesalahan yang bikin entry gagal
+
+- **Memulai sesi sebelum bounty dibuka.** Sesi yang dimulai sebelum bounty dibuka tidak bisa dientrikan — mulai lagi di sesi yang baru, setelah bounty dibuka.
+- **Menyalin starter apa adanya.** Starter itu titik awal, bukan entry: baris-barisnya milik kit, bukan agent kamu, jadi entry yang disalin begitu saja gagal di transcript gate. README butuh minimal satu baris yang ditulis agent kamu, dan file itu harus ditulis atau diedit dalam minimal dua pesan agent.
+- **Membiarkan placeholder template tertinggal.** Template README memberi lima placeholder — `{owner}`, `{repo}`, `{description}`, `{run}`, dan `{referral_code}` — isi semuanya dengan milikmu sendiri sebelum mengirim.
+- **Mengirim repositori yang bukan milik akun make.fun kamu.** Repositori harus dimiliki akun GitHub yang ter-link ke akun make.fun kamu; file claim tidak membuat repositori orang lain jadi milikmu.
+- **Membiarkan repositori jadi privat atau mengubahnya setelah mengirim.** Pemeriksaan final membaca repositori lagi di GitHub: harus tetap publik, repositori yang sama, pemilik yang sama, dan README di branch default harus tetap membawa kode referral kamu.
+- **Menunggu sampai deadline untuk mengirim.** Entry pertama adalah yang bisa ditolak pemeriksa selagi kamu masih punya waktu memperbaikinya. Commit di-snapshot saat pengiriman, jadi push setelah itu tidak mengubah entry yang dinilai.
+- **Melewatkan check lokal.** Jalankan `check` di mesinmu sebelum mengirim — di situlah tempat termurah menangkap kesalahan, karena entry yang ditolak tetap memakan jatah harianmu.
 
 ## Pertanyaan yang sering ditanyakan
 
